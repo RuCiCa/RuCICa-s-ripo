@@ -2,12 +2,12 @@
 	<body>
 		<table style="border:3px #cccccc solid;" cellpadding="10" border=‘1’>
 		<tr>
-			<th colspan="2">About -- 110306076</th>
+			<th colspan="3">About -- 110306076</th>
  	 	</tr>
   		<tr>
     	<th rowspan="3"><img src = "unnamed (1).jpg" width = "92" height = "120"
 				alt = "unnamed (1).jpg"></th>
-		<td>
+		<td colspan="2">
 				<label> Name:
 				<input name = "name" type = "text" size = "25" maxlength = "30">
 				</label>
@@ -16,9 +16,8 @@
 				<input type="radio" name="1" value="Male"> Male
 				<input type="radio" name="1" value="Female"> Female
 				<input type="radio" name="1" value="Other"> Other
-				</label>
-		</td>
-			<td colspan="2"><label>Country:
+				<tr>
+				<td><label>Country:
 					<select name = "2">
 						<option value="Taipei">Taipei</option>
 						<option value="Tainan">Tainan</option>
@@ -26,9 +25,48 @@
 						<option value="Taoyuan">Taoyuan</option>
 				</select></td>
 
-			<td ><label>Birthday:
+				<td ><label>Birthday:
 						<input id="date" type="date">
+									</td>
+				</tr>
+				<td colspan="2"><label> E-mail Address:
+				<input name = "name" type = "text" size = "25" maxlength = "30">
+				</label></td>
+		</tr>
+		<tr>
+		<td>Hobby</td>
+		<td colspan="2">
+			<input type="checkbox" name="3" value="Swimming"> Swimming
+			<input type="checkbox" name="3" value="Volleyball"> Volleyball
+			<input type="checkbox" name="3" value="Movie"> Movie
+			<input type="checkbox" name="3" value="Game"> Game 
+			<input type="checkbox" name="3" value="sleep"> sleep
+		</td>
+		</tr>
+		<tr>
+		<td>Skill</td>
+		<td colspan="2">
+			<input type="checkbox" name="3" value="Java"> Java
+			<input type="checkbox" name="3" value="HTML"> HTML
+			<input type="checkbox" name="3" value="Python"> Python
+			<input type="checkbox" name="3" value="Microsoft Office"> Microsoft Office
+			<input type="checkbox" name="3" value="Premiere"> Premiere
+		</td>
+		</tr>
+		<tr>
+		<td>Say Something</td>
+		<td colspan="2">
+			<textarea rows = "4" cols = "50">Say something here.
+		</textarea>
+		</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<input type="submit">
+				<input type="reset">
+				</form>
 			</td>
+		</tr>
 		</table>
 	</body>
 
